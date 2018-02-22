@@ -1,0 +1,43 @@
+$green: #87a559;
+$grey-text: #4e4e4e;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+
+.hero-image2-text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.hero-image2 {
+  background-image: url("http://via.placeholder.com/1000x500");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  right: 90px;
+  max-width: 400px;
+}
+
+.hero-text2-header{
+  color: $white;
+  padding-right: 40px;
+}
+
+.hero-text2 a {
+  float: right;
+  text-decoration: underline;
+  color: $white;
+  cursor: pointer;
+}
