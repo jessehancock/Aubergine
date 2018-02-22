@@ -1,0 +1,44 @@
+$green: #87a559;
+$grey-text: #b2ebf2;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+.who-we-are-container{
+    margin: auto;
+    max-width: 70%;
+    padding: 60px 10px;
+}
+
+.who-we-are-header{
+  color: $main-purple;
+  padding: 0 0 25px 30px;
+}
+
+.who-we-are-text1{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.who-we-are-text2{
+  color: $green;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.who-we-are-text3{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.who-we-are-bold{
+  font-weight: 500
+}
+
+.who-we-are-text4{
+  text-align: right;
+  color: $main-purple;
+  padding-bottom: 25px;
+  a{cursor: pointer; color: $main-purple; text-decoration: underline;}
+}

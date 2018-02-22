@@ -1,33 +1,153 @@
 <html lang="en">
 
-<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Aubergine</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-</head>
 
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 <body>
-  <div class="header">
-    <div class="main_nav">
-      <span class="menu_container">
-        <div class="menu">menu</div>
-        <div class="menu">our story</div>
-        <div class="menu">gift cards</div>
-        <div class="menu">catering</div>
-        <div class="menu">locations</div>
-      </span>
+
+
+<!--
+HEADER HEADER HEADER
+TODO: make compoment to have this on each page
+ -->
+<div class="header">
+  <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="row">
+          <div class="col-lg-4 logo-container">
+            <img class="eggplant_logo" src="assets/images/eggplant_logo.png" alt="eggplant_logo">
+            <img class="name_logo" src="assets/images/name_logo.png">
+          </div>
+          <div class="col-lg-5 nav-container">
+            <ul class="nav navbar-nav">
+              <li><a href="#">menu</a></li>
+              <li><a href="#">our story</a></li>
+              <li><a href="#">gift cards</a></li>
+              <li><a href="#">catering</a></li>
+              <li><a href="#">locations</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 three">
+            <img class="order" src="assets/images/green.png">
+            <div class="order_now">
+              order online
+            </div>
+          </div>
+        </div>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+  </div>
+  <div class="nav-border"></div>
+
+
+<!--THE CAROUSEL TODO: MAKE THIS A DIFFERENT COMPONENT  -->
+
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example" data-slide-to="1"></li>
+      <li data-target="#carousel-example" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active carousel-landing">
+        <a href="#"><img src="assets/images/banner_1.jpeg" /></a>
+      </div>
+      <div class="item carousel-landing">
+        <a href="#"><img src="assets/images/banner_1.jpeg" /></a>
+      </div>
+      <div class="item carousel-landing">
+        <a href="#"><img src="assets/images/banner_1.jpeg" /></a>
+      </div>
     </div>
+
+    <a class="left carousel-control" href="#carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
   </div>
 
-    <h2>hello world HELP g</h2>
+<!--WHO-WE-ARE TODO: MAKE THIS A DIFFERENT COMPONENT  -->
+<div class="who-we-are-container">
+  <div class="who-we-are-header "><h1>Who we are<h1></div>
+  <div class="who-we-are-text1"><p>Aubergine & Company is focused on making healthy eating easy, convenient, and sustainable. We offer food that is nutritious and delicious. We offer natural, fresh house-made salads, sandwiches, bowls, soups, acai bowls, juices, smoothies and desserts without any preservatives or refined sugar.<p></div>
+  <div class="who-we-are-text2 "><h1>Tasty. Fresh. Real.</h1></div>
+  <div class="who-we-are-text3 "><p>We pride ourselves in creating healthy food that doesn’t taste “healthy”. You, our customer, can pick any item on the menu knowing that it is good for you. Become part of our community--<span class="who-we-are-bold">eat better, feel bifferent.</span><p></div>
+  <div class="who-we-are-text4"><h2>Read more about guiding principles <a>here.</a></h2></div>
+</div>
+
+
+<!--hero-image TODO: MAKE THIS A DIFFERENT COMPONENT  -->
+<div class="hero-image1-container">
+  <img class="hero-image1" src="http://via.placeholder.com/1000x500">
+</div>
+
+<!--MORE-THAN-FOOD TODO: MAKE THIS A DIFFERENT COMPONENT  -->
+<div class="more-than-food-container">
+  <div class="more-than-food-header"><h1>It's more than just food.</h1></div>
+  <div class="do-and-dont-container">
+    <div class="more-than-food-list"><h1>We Do</h1>
+      <ul>
+        <li><img src="http://via.placeholder.com/25x25"><p>Dressings creamed with Raw Cashews, Fresh Squeezed Lime & Extra Virgin Olive Oil</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>Wild Fish</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>Soups creamed with Raw Cashews & Tofu</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>Desserts with Zero Refined Sugar</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>Smoothies & Nice Cream sweetened with Dates</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>Coconut Oil & Extra Virgin Olive Oil for most recipes</p></li>
+
+      </ul>
+    </div>
+    <div class="more-than-food-list list-donts"><h1>We Don't</h1>
+      <ul>
+        <li><img src="http://via.placeholder.com/25x25"><p>No Refined Sugars</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>No Preservatives</p>      </li>
+        <li><img src="http://via.placeholder.com/25x25"><p>No Canned Foods</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>No GMO</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>No Fryer</p></li>
+        <li><img src="http://via.placeholder.com/25x25"><p>No Diets</p></li>
+      </ul>
+      <h3 class="more-than-food-order"><a>order online</a></h3>
+    </div>
+  </div>
+</div>
+<!--HERO-IMAGE2 TODO: MAKE THIS A DIFFERENT COMPONENT  -->
+<div class="hero-image1-container">
+  <img class="hero-image1" src="http://via.placeholder.com/1000x500">
+</div>
+
+
+
     <!-- <nav-directive></nav-directive> HEADER Figure out how-->
     <!-- <ui-view></ui-view> Mainbody different views -->
     <!-- <footer-directive></footer-directive> FOOTER FIGure out -->
 
 
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

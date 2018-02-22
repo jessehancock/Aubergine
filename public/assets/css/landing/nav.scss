@@ -1,0 +1,80 @@
+$green: #87a559;
+$grey-text: #4e4e4e;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+
+
+
+//take away space at bottom
+.navbar{
+    margin-bottom: 0px ;
+}
+
+.navbar-header{
+  background-color: $white;
+  height: 100px;
+  border-bottom: 8px;
+}
+
+.navbar-nav{
+  li{
+    padding-top: 60px;
+    font-size: 18px;
+    color: $grey-text;
+  }
+}
+
+.nav-border{
+  background-color: $grey;
+  height: 7px;
+}
+
+.nav-container{
+  padding-left: 0;
+  margin-left: -15px;
+}
+.eggplant_logo{
+  float: left;
+  margin: 10px 0px -40px 10px;
+  border: solid $grey 7px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.logo-container{
+  z-index: 10;
+}
+
+.name_logo{
+  float: left;
+  margin: 26px 0 0 0;
+}
+
+.order_now{
+  font-size: 28px;
+  color: $white;
+  position: absolute;
+  top:30px;
+  right: 50px;
+}
+
+.order{
+  position: absolute;
+  top:0px;
+  right: -30px;
+}
+
+
+@media (min-width: 768px) {
+     .navbar .navbar-nav {
+         display: inline-block;
+         float: none;
+     }
+
+     .navbar .navbar-collapse {
+         text-align: center;
+     }
+ }

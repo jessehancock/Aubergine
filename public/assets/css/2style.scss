@@ -1,31 +1,21 @@
+$green: #87a559;
+$grey-text: #b2ebf2;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
 *{
   font-family: 'Comfortaa', cursive;
-  font-size: 10px;
+  	h1 {font-size: 4.7rem; font-weight: bold;};// TODO: set font to Myriad Pro and make bold
+  	h2 {font-size: 3.5rem; font-weight: bold;};// TODO: set font to Myriad Pro and make bold
+  	h3 {font-size: 3.2rem; font-weight: bold;};
+  	p {font-size: 2.8rem; line-height: 1.1; font-weight: 100};
 }
 
-
-
-// @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
-//
-//
-// $dark-main: #0097a7;
-// $main: #00BCD4;
-// $mt-main: #69d8De;
-// $light-main: #b2ebf2;
-// $accent-color: #ffc107;
-// $light-text: #fff;
-// $primary-text: #212121;
-// $secondary-text: #757575;
-// $divider-color: #bdbdbd;
-//
-// // 1 Box
-// // margin, padding, display, etc.
-// // 2 Border & Background
-// // border, border-radius, background-color, etc.
-// // 3 Text
-// // color, font-size, text-transform, etc.
-// // 4 Other stuff
-// // animations, transforms, etc.
 // *{
 // 	font-family: 'lato';
 // 	line-height: 1.2;

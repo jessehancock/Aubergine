@@ -1,0 +1,46 @@
+$green: #87a559;
+$grey-text: #4e4e4e;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+.more-than-food-container{
+  padding: 120px 20px;
+}
+
+.more-than-food-header{
+    color: $green;
+    text-align: center;
+    padding-bottom: 60px
+}
+
+.do-and-dont-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.more-than-food-list{
+  color: $main-purple;
+  max-width: 45vw;
+  padding: 0 30px;
+  h1{padding-bottom: 20px;
+     text-align: center;}
+  ul{
+    img{height: 25px; width: 25px; margin-right: 5px}
+    li{display: flex;}
+  }
+  a{cursor: pointer; color: $green; text-decoration: underline;}
+}
+
+.list-donts{
+  display: flex;
+  flex-direction: column
+}
+
+
+.more-than-food-order{
+  margin-top: auto;
+  text-align: center;
+}

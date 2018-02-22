@@ -1,4 +1,4 @@
-ALWAYS USE A RESET CSS SYTLE SHEET
+RESET CSS SYTLE SHEET
 html, body, button, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,12 +43,157 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
 * {
-  font-family: 'Comfortaa', cursive;
-  font-size: 10px; }
+  font-family: 'Comfortaa', cursive; }
+  * h1 {
+    font-size: 4.7rem;
+    font-weight: bold; }
+  * h2 {
+    font-size: 3.5rem;
+    font-weight: bold; }
+  * h3 {
+    font-size: 3.2rem;
+    font-weight: bold; }
+  * p {
+    font-size: 2.8rem;
+    line-height: 1.1;
+    font-weight: 100; }
 
+@import url("nav.scss");
+@import url("carousel.scss");
+@import url("who-we-are.scss");
+@import url("hero-image1.scss");
+@import url("more-than-food.scss");
 
-.menu_container {
+.carousel-landing {
+  height: 450px; }
+
+.hero-image1 {
+  min-width: 100%; }
+
+.more-than-food-container {
+  padding: 120px 20px; }
+
+.more-than-food-header {
+  color: #87a559;
+  text-align: center;
+  padding-bottom: 60px; }
+
+.do-and-dont-container {
   display: flex;
-  align-items: center;
   justify-content: center; }
+
+.more-than-food-list {
+  color: #926885;
+  max-width: 45vw;
+  padding: 0 30px; }
+  .more-than-food-list h1 {
+    padding-bottom: 20px;
+    text-align: center; }
+  .more-than-food-list ul img {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px; }
+  .more-than-food-list ul li {
+    display: flex; }
+  .more-than-food-list a {
+    cursor: pointer;
+    color: #87a559;
+    text-decoration: underline; }
+
+.list-donts {
+  display: flex;
+  flex-direction: column; }
+
+.more-than-food-order {
+  margin-top: auto;
+  text-align: center; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.navbar-header {
+  background-color: #fff;
+  height: 100px;
+  border-bottom: 8px; }
+
+.navbar-nav li {
+  padding-top: 60px;
+  font-size: 18px;
+  color: #4e4e4e; }
+
+.nav-border {
+  background-color: #cccccc;
+  height: 7px; }
+
+.nav-container {
+  padding-left: 0;
+  margin-left: -15px; }
+
+.eggplant_logo {
+  float: left;
+  margin: 10px 0px -40px 10px;
+  border: solid #cccccc 7px;
+  border-radius: 50%;
+  z-index: 10; }
+
+.logo-container {
+  z-index: 10; }
+
+.name_logo {
+  float: left;
+  margin: 26px 0 0 0; }
+
+.order_now {
+  font-size: 28px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 50px; }
+
+.order {
+  position: absolute;
+  top: 0px;
+  right: -30px; }
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none; }
+  .navbar .navbar-collapse {
+    text-align: center; } }
+
+.who-we-are-container {
+  margin: auto;
+  max-width: 70%;
+  padding: 60px 10px; }
+
+.who-we-are-header {
+  color: #926885;
+  padding: 0 0 25px 30px; }
+
+.who-we-are-text1 {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.who-we-are-text2 {
+  color: #87a559;
+  text-align: center;
+  padding-bottom: 25px; }
+
+.who-we-are-text3 {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.who-we-are-bold {
+  font-weight: 500; }
+
+.who-we-are-text4 {
+  text-align: right;
+  color: #926885;
+  padding-bottom: 25px; }
+  .who-we-are-text4 a {
+    cursor: pointer;
+    color: #926885;
+    text-decoration: underline; }
