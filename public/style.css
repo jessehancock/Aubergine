@@ -69,9 +69,44 @@ table {
 @import url("landing-gift-container.scss");
 @import url("hero-image3.scss");
 @import url("review.scss");
+@import url("footer");
 
 .carousel-landing {
   height: 450px; }
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px; }
+
+.purple-links a {
+  color: #b294a8;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 5px;
+  cursor: pointer; }
+
+.grey-links {
+  background-color: #64625f;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around; }
+
+.grey-links a {
+  color: #fff;
+  cursor: pointer; }
+
+.grey-footer-links {
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+.copywright {
+  padding: 5px;
+  display: flex;
+  justify-content: center; }
 
 .hero-image1 {
   min-width: 100vw; }

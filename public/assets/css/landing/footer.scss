@@ -1,0 +1,47 @@
+$green: #87a559;
+$grey-text: #4e4e4e;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+
+.footer-links{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.purple-links a{
+  color: $light-purple;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.grey-links{
+  background-color: #64625f;
+  color: $white;
+  font-size: 1.2rem;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.grey-links a{
+  color: $white;
+  cursor: pointer;
+}
+
+.grey-footer-links{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.copywright{
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
