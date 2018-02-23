@@ -1,0 +1,30 @@
+$green: #87a559;
+$grey-text: #4e4e4e;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+
+.landing-gift-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 50px;
+}
+
+
+.landing-gift-text{
+  padding: 0 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.landing-gift-text h1{
+  color: $main-purple;
+  padding-bottom: 30px;
+}
+
+.landing-gift-image{
+  padding: 0 10px;
+  margin: auto;
+}

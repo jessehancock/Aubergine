@@ -1,0 +1,63 @@
+$green: #87a559;
+$grey-text: #b2ebf2;
+$grey: #cccccc;
+$white: #fff;
+$light-purple: #b294a8;
+$main-purple: #926885;
+
+.review-container{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 80px;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.review-image{
+  border-radius: 50%;
+}
+
+.review-person{
+  display: flex;
+  padding: 12px 0 2px;
+}
+
+.reviwer{
+  padding: 4px;
+}
+
+.review-name{
+  font-weight: bold;
+}
+
+.review-info{
+  color: $grey;
+};
+
+
+.review-stars{
+  display: flex;
+  padding: 0 40px 10px;
+
+}
+
+.review-star-text{
+  color: $grey;
+  line-height: 1.6;
+}
+
+ .review-text{
+   padding: 0 40px 10px;
+   line-height: 1.6;
+ }
+
+
+ .review-helpful{
+   display: flex;
+   padding: 0 40px 10px;
+ }
+
+ .review-helpful-text{
+   padding: 4px;
+   color: $grey;
+ }
